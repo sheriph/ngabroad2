@@ -1,0 +1,2535 @@
+# npm resolution error report
+
+2021-03-13T23:53:21.689Z
+
+Found: react@17.0.1
+node_modules/react
+  peer react@">=16.8.0" from @emotion/react@11.1.5
+  node_modules/@emotion/react
+    peer @emotion/react@"^11.0.0-rc.0" from @emotion/styled@11.1.5
+    node_modules/@emotion/styled
+      @emotion/styled@"^11.1.5" from the root project
+    @emotion/react@"^11.1.5" from the root project
+  peer react@">=16.8.0" from @emotion/styled@11.1.5
+  node_modules/@emotion/styled
+    @emotion/styled@"^11.1.5" from the root project
+  peer react@"^16.8.0 || ^17.0.0" from @material-ui/core@4.11.3
+  node_modules/@material-ui/core
+    peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+    node_modules/@material-ui/icons
+      @material-ui/icons@"^4.11.2" from the root project
+    peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+    node_modules/@material-ui/lab
+      @material-ui/lab@"^4.0.0-alpha.57" from the root project
+    peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+    node_modules/@material-ui/pickers
+      @material-ui/pickers@"^3.2.10" from the root project
+    peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+    node_modules/notistack
+      notistack@"^1.0.5" from the root project
+    @material-ui/core@"latest" from the root project
+  peer react@"^16.8.0 || ^17.0.0" from @material-ui/icons@4.11.2
+  node_modules/@material-ui/icons
+    @material-ui/icons@"^4.11.2" from the root project
+  peer react@"^16.8.0 || ^17.0.0" from @material-ui/lab@4.0.0-alpha.57
+  node_modules/@material-ui/lab
+    @material-ui/lab@"^4.0.0-alpha.57" from the root project
+  peer react@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.3
+  node_modules/@material-ui/styles
+    @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
+    node_modules/@material-ui/core
+      peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+      node_modules/@material-ui/icons
+        @material-ui/icons@"^4.11.2" from the root project
+      peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+      node_modules/@material-ui/lab
+        @material-ui/lab@"^4.0.0-alpha.57" from the root project
+      peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+      node_modules/@material-ui/pickers
+        @material-ui/pickers@"^3.2.10" from the root project
+      peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+      node_modules/notistack
+        notistack@"^1.0.5" from the root project
+      @material-ui/core@"latest" from the root project
+  peer react@"^16.8.0 || ^17.0.0" from @material-ui/system@4.11.3
+  node_modules/@material-ui/system
+    @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
+    node_modules/@material-ui/core
+      peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+      node_modules/@material-ui/icons
+        @material-ui/icons@"^4.11.2" from the root project
+      peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+      node_modules/@material-ui/lab
+        @material-ui/lab@"^4.0.0-alpha.57" from the root project
+      peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+      node_modules/@material-ui/pickers
+        @material-ui/pickers@"^3.2.10" from the root project
+      peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+      node_modules/notistack
+        notistack@"^1.0.5" from the root project
+      @material-ui/core@"latest" from the root project
+  peer react@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.2
+  node_modules/@material-ui/utils
+    @material-ui/utils@"^4.11.2" from @material-ui/core@4.11.3
+    node_modules/@material-ui/core
+      peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+      node_modules/@material-ui/icons
+        @material-ui/icons@"^4.11.2" from the root project
+      peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+      node_modules/@material-ui/lab
+        @material-ui/lab@"^4.0.0-alpha.57" from the root project
+      peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+      node_modules/@material-ui/pickers
+        @material-ui/pickers@"^3.2.10" from the root project
+      peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+      node_modules/notistack
+        notistack@"^1.0.5" from the root project
+      @material-ui/core@"latest" from the root project
+    @material-ui/utils@"^4.11.2" from @material-ui/lab@4.0.0-alpha.57
+    node_modules/@material-ui/lab
+      @material-ui/lab@"^4.0.0-alpha.57" from the root project
+    @material-ui/utils@"^4.11.2" from @material-ui/styles@4.11.3
+    node_modules/@material-ui/styles
+      @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
+      node_modules/@material-ui/core
+        peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+        node_modules/@material-ui/icons
+          @material-ui/icons@"^4.11.2" from the root project
+        peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+        node_modules/@material-ui/lab
+          @material-ui/lab@"^4.0.0-alpha.57" from the root project
+        peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+        node_modules/@material-ui/pickers
+          @material-ui/pickers@"^3.2.10" from the root project
+        peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+        node_modules/notistack
+          notistack@"^1.0.5" from the root project
+        @material-ui/core@"latest" from the root project
+    @material-ui/utils@"^4.11.2" from @material-ui/system@4.11.3
+    node_modules/@material-ui/system
+      @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
+      node_modules/@material-ui/core
+        peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+        node_modules/@material-ui/icons
+          @material-ui/icons@"^4.11.2" from the root project
+        peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+        node_modules/@material-ui/lab
+          @material-ui/lab@"^4.0.0-alpha.57" from the root project
+        peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+        node_modules/@material-ui/pickers
+          @material-ui/pickers@"^3.2.10" from the root project
+        peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+        node_modules/notistack
+          notistack@"^1.0.5" from the root project
+        @material-ui/core@"latest" from the root project
+  peer react@"*" from @nandorojo/swr-firestore@0.16.0
+  node_modules/@nandorojo/swr-firestore
+    @nandorojo/swr-firestore@"^0.16.0" from the root project
+  peer react@"^16.9.0 || ^17" from @next/react-dev-overlay@10.0.7
+  node_modules/@next/react-dev-overlay
+    @next/react-dev-overlay@"10.0.7" from next@10.0.7
+    node_modules/next
+      next@"latest" from the root project
+  peer react@"^16.6.0 || ^17" from next@10.0.7
+  node_modules/next
+    next@"latest" from the root project
+  peer react@"^16.8.0 || ^17.0.0" from notistack@1.0.5
+  node_modules/notistack
+    notistack@"^1.0.5" from the root project
+  peer react@"17.0.1" from react-dom@17.0.1
+  node_modules/react-dom
+    peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/core@4.11.3
+    node_modules/@material-ui/core
+      peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+      node_modules/@material-ui/icons
+        @material-ui/icons@"^4.11.2" from the root project
+      peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+      node_modules/@material-ui/lab
+        @material-ui/lab@"^4.0.0-alpha.57" from the root project
+      peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+      node_modules/@material-ui/pickers
+        @material-ui/pickers@"^3.2.10" from the root project
+      peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+      node_modules/notistack
+        notistack@"^1.0.5" from the root project
+      @material-ui/core@"latest" from the root project
+    peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/icons@4.11.2
+    node_modules/@material-ui/icons
+      @material-ui/icons@"^4.11.2" from the root project
+    peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/lab@4.0.0-alpha.57
+    node_modules/@material-ui/lab
+      @material-ui/lab@"^4.0.0-alpha.57" from the root project
+    peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/styles@4.11.3
+    node_modules/@material-ui/styles
+      @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
+      node_modules/@material-ui/core
+        peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+        node_modules/@material-ui/icons
+          @material-ui/icons@"^4.11.2" from the root project
+        peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+        node_modules/@material-ui/lab
+          @material-ui/lab@"^4.0.0-alpha.57" from the root project
+        peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+        node_modules/@material-ui/pickers
+          @material-ui/pickers@"^3.2.10" from the root project
+        peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+        node_modules/notistack
+          notistack@"^1.0.5" from the root project
+        @material-ui/core@"latest" from the root project
+    peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/system@4.11.3
+    node_modules/@material-ui/system
+      @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
+      node_modules/@material-ui/core
+        peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+        node_modules/@material-ui/icons
+          @material-ui/icons@"^4.11.2" from the root project
+        peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+        node_modules/@material-ui/lab
+          @material-ui/lab@"^4.0.0-alpha.57" from the root project
+        peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+        node_modules/@material-ui/pickers
+          @material-ui/pickers@"^3.2.10" from the root project
+        peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+        node_modules/notistack
+          notistack@"^1.0.5" from the root project
+        @material-ui/core@"latest" from the root project
+    peer react-dom@"^16.8.0 || ^17.0.0" from @material-ui/utils@4.11.2
+    node_modules/@material-ui/utils
+      @material-ui/utils@"^4.11.2" from @material-ui/core@4.11.3
+      node_modules/@material-ui/core
+        peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+        node_modules/@material-ui/icons
+          @material-ui/icons@"^4.11.2" from the root project
+        peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+        node_modules/@material-ui/lab
+          @material-ui/lab@"^4.0.0-alpha.57" from the root project
+        peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+        node_modules/@material-ui/pickers
+          @material-ui/pickers@"^3.2.10" from the root project
+        peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+        node_modules/notistack
+          notistack@"^1.0.5" from the root project
+        @material-ui/core@"latest" from the root project
+      @material-ui/utils@"^4.11.2" from @material-ui/lab@4.0.0-alpha.57
+      node_modules/@material-ui/lab
+        @material-ui/lab@"^4.0.0-alpha.57" from the root project
+      @material-ui/utils@"^4.11.2" from @material-ui/styles@4.11.3
+      node_modules/@material-ui/styles
+        @material-ui/styles@"^4.11.3" from @material-ui/core@4.11.3
+        node_modules/@material-ui/core
+          peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+          node_modules/@material-ui/icons
+            @material-ui/icons@"^4.11.2" from the root project
+          peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+          node_modules/@material-ui/lab
+            @material-ui/lab@"^4.0.0-alpha.57" from the root project
+          peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+          node_modules/@material-ui/pickers
+            @material-ui/pickers@"^3.2.10" from the root project
+          peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+          node_modules/notistack
+            notistack@"^1.0.5" from the root project
+          @material-ui/core@"latest" from the root project
+      @material-ui/utils@"^4.11.2" from @material-ui/system@4.11.3
+      node_modules/@material-ui/system
+        @material-ui/system@"^4.11.3" from @material-ui/core@4.11.3
+        node_modules/@material-ui/core
+          peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+          node_modules/@material-ui/icons
+            @material-ui/icons@"^4.11.2" from the root project
+          peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+          node_modules/@material-ui/lab
+            @material-ui/lab@"^4.0.0-alpha.57" from the root project
+          peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+          node_modules/@material-ui/pickers
+            @material-ui/pickers@"^3.2.10" from the root project
+          peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+          node_modules/notistack
+            notistack@"^1.0.5" from the root project
+          @material-ui/core@"latest" from the root project
+    peer react-dom@"^16.9.0 || ^17" from @next/react-dev-overlay@10.0.7
+    node_modules/@next/react-dev-overlay
+      @next/react-dev-overlay@"10.0.7" from next@10.0.7
+      node_modules/next
+        next@"latest" from the root project
+    peer react-dom@"^16.6.0 || ^17" from next@10.0.7
+    node_modules/next
+      next@"latest" from the root project
+    peer react-dom@"^16.8.0 || ^17.0.0" from notistack@1.0.5
+    node_modules/notistack
+      notistack@"^1.0.5" from the root project
+    peer react-dom@"^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0" from react-lazyload@3.2.0
+    node_modules/react-lazyload
+      react-lazyload@"^3.2.0" from the root project
+    peer react-dom@">=16.6.0" from react-transition-group@4.4.1
+    node_modules/react-transition-group
+      react-transition-group@"^4.4.0" from @material-ui/core@4.11.3
+      node_modules/@material-ui/core
+        peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+        node_modules/@material-ui/icons
+          @material-ui/icons@"^4.11.2" from the root project
+        peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+        node_modules/@material-ui/lab
+          @material-ui/lab@"^4.0.0-alpha.57" from the root project
+        peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+        node_modules/@material-ui/pickers
+          @material-ui/pickers@"^3.2.10" from the root project
+        peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+        node_modules/notistack
+          notistack@"^1.0.5" from the root project
+        @material-ui/core@"latest" from the root project
+      react-transition-group@"^4.0.0" from @material-ui/pickers@3.2.10
+      node_modules/@material-ui/pickers
+        @material-ui/pickers@"^3.2.10" from the root project
+    react-dom@"latest" from the root project
+  peer react@"^16.8.0 || ^17" from react-hook-form@6.15.4
+  node_modules/react-hook-form
+    react-hook-form@"^6.15.4" from the root project
+  peer react@"^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0" from react-lazyload@3.2.0
+  node_modules/react-lazyload
+    react-lazyload@"^3.2.0" from the root project
+  peer react@">=16.6.0" from react-transition-group@4.4.1
+  node_modules/react-transition-group
+    react-transition-group@"^4.4.0" from @material-ui/core@4.11.3
+    node_modules/@material-ui/core
+      peer @material-ui/core@"^4.0.0" from @material-ui/icons@4.11.2
+      node_modules/@material-ui/icons
+        @material-ui/icons@"^4.11.2" from the root project
+      peer @material-ui/core@"^4.9.10" from @material-ui/lab@4.0.0-alpha.57
+      node_modules/@material-ui/lab
+        @material-ui/lab@"^4.0.0-alpha.57" from the root project
+      peer @material-ui/core@"^4.0.0" from @material-ui/pickers@3.2.10
+      node_modules/@material-ui/pickers
+        @material-ui/pickers@"^3.2.10" from the root project
+      peer @material-ui/core@"^4.0.0" from notistack@1.0.5
+      node_modules/notistack
+        notistack@"^1.0.5" from the root project
+      @material-ui/core@"latest" from the root project
+    react-transition-group@"^4.0.0" from @material-ui/pickers@3.2.10
+    node_modules/@material-ui/pickers
+      @material-ui/pickers@"^3.2.10" from the root project
+  peer react@">=16.13.1" from recoil@0.1.3
+  node_modules/recoil
+    recoil@"^0.1.2" from the root project
+  peer react@">=16.8" from rifm@0.7.0
+  node_modules/rifm
+    rifm@"^0.7.0" from @material-ui/pickers@3.2.10
+    node_modules/@material-ui/pickers
+      @material-ui/pickers@"^3.2.10" from the root project
+  peer react@"15.x.x || 16.x.x || 17.x.x" from styled-jsx@3.3.2
+  node_modules/styled-jsx
+    styled-jsx@"3.3.2" from next@10.0.7
+    node_modules/next
+      next@"latest" from the root project
+  peer react@"^16.8.0 || ^17.0.0" from use-subscription@1.5.1
+  node_modules/use-subscription
+    use-subscription@"1.5.1" from next@10.0.7
+    node_modules/next
+      next@"latest" from the root project
+  react@"latest" from the root project
+
+Could not resolve dependency:
+react-virtualized@"*" from the root project
+
+Conflicting peer dependency: react@16.14.0
+node_modules/react
+  peer react@"^15.3.0 || ^16.0.0-alpha" from react-virtualized@9.22.3
+  node_modules/react-virtualized
+    react-virtualized@"*" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "current": {
+    "name": "react",
+    "version": "17.0.1",
+    "location": "node_modules/react",
+    "dependents": [
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.8.0",
+        "from": {
+          "name": "@emotion/react",
+          "version": "11.1.5",
+          "location": "node_modules/@emotion/react",
+          "dependents": [
+            {
+              "type": "peer",
+              "name": "@emotion/react",
+              "spec": "^11.0.0-rc.0",
+              "from": {
+                "name": "@emotion/styled",
+                "version": "11.1.5",
+                "location": "node_modules/@emotion/styled",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@emotion/styled",
+                    "spec": "^11.1.5",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "@emotion/react",
+              "spec": "^11.1.5",
+              "from": {
+                "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.8.0",
+        "from": {
+          "name": "@emotion/styled",
+          "version": "11.1.5",
+          "location": "node_modules/@emotion/styled",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@emotion/styled",
+              "spec": "^11.1.5",
+              "from": {
+                "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.8.0 || ^17.0.0",
+        "from": {
+          "name": "@material-ui/core",
+          "version": "4.11.3",
+          "location": "node_modules/@material-ui/core",
+          "dependents": [
+            {
+              "type": "peer",
+              "name": "@material-ui/core",
+              "spec": "^4.0.0",
+              "from": {
+                "name": "@material-ui/icons",
+                "version": "4.11.2",
+                "location": "node_modules/@material-ui/icons",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/icons",
+                    "spec": "^4.11.2",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "@material-ui/core",
+              "spec": "^4.9.10",
+              "from": {
+                "name": "@material-ui/lab",
+                "version": "4.0.0-alpha.57",
+                "location": "node_modules/@material-ui/lab",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/lab",
+                    "spec": "^4.0.0-alpha.57",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "@material-ui/core",
+              "spec": "^4.0.0",
+              "from": {
+                "name": "@material-ui/pickers",
+                "version": "3.2.10",
+                "location": "node_modules/@material-ui/pickers",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/pickers",
+                    "spec": "^3.2.10",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "@material-ui/core",
+              "spec": "^4.0.0",
+              "from": {
+                "name": "notistack",
+                "version": "1.0.5",
+                "location": "node_modules/notistack",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "notistack",
+                    "spec": "^1.0.5",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "@material-ui/core",
+              "spec": "latest",
+              "from": {
+                "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.8.0 || ^17.0.0",
+        "from": {
+          "name": "@material-ui/icons",
+          "version": "4.11.2",
+          "location": "node_modules/@material-ui/icons",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@material-ui/icons",
+              "spec": "^4.11.2",
+              "from": {
+                "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.8.0 || ^17.0.0",
+        "from": {
+          "name": "@material-ui/lab",
+          "version": "4.0.0-alpha.57",
+          "location": "node_modules/@material-ui/lab",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@material-ui/lab",
+              "spec": "^4.0.0-alpha.57",
+              "from": {
+                "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.8.0 || ^17.0.0",
+        "from": {
+          "name": "@material-ui/styles",
+          "version": "4.11.3",
+          "location": "node_modules/@material-ui/styles",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@material-ui/styles",
+              "spec": "^4.11.3",
+              "from": {
+                "name": "@material-ui/core",
+                "version": "4.11.3",
+                "location": "node_modules/@material-ui/core",
+                "dependents": [
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "@material-ui/icons",
+                      "version": "4.11.2",
+                      "location": "node_modules/@material-ui/icons",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/icons",
+                          "spec": "^4.11.2",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.9.10",
+                    "from": {
+                      "name": "@material-ui/lab",
+                      "version": "4.0.0-alpha.57",
+                      "location": "node_modules/@material-ui/lab",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/lab",
+                          "spec": "^4.0.0-alpha.57",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "@material-ui/pickers",
+                      "version": "3.2.10",
+                      "location": "node_modules/@material-ui/pickers",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/pickers",
+                          "spec": "^3.2.10",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "notistack",
+                      "version": "1.0.5",
+                      "location": "node_modules/notistack",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "notistack",
+                          "spec": "^1.0.5",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/core",
+                    "spec": "latest",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.8.0 || ^17.0.0",
+        "from": {
+          "name": "@material-ui/system",
+          "version": "4.11.3",
+          "location": "node_modules/@material-ui/system",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@material-ui/system",
+              "spec": "^4.11.3",
+              "from": {
+                "name": "@material-ui/core",
+                "version": "4.11.3",
+                "location": "node_modules/@material-ui/core",
+                "dependents": [
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "@material-ui/icons",
+                      "version": "4.11.2",
+                      "location": "node_modules/@material-ui/icons",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/icons",
+                          "spec": "^4.11.2",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.9.10",
+                    "from": {
+                      "name": "@material-ui/lab",
+                      "version": "4.0.0-alpha.57",
+                      "location": "node_modules/@material-ui/lab",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/lab",
+                          "spec": "^4.0.0-alpha.57",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "@material-ui/pickers",
+                      "version": "3.2.10",
+                      "location": "node_modules/@material-ui/pickers",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/pickers",
+                          "spec": "^3.2.10",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "notistack",
+                      "version": "1.0.5",
+                      "location": "node_modules/notistack",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "notistack",
+                          "spec": "^1.0.5",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/core",
+                    "spec": "latest",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.8.0 || ^17.0.0",
+        "from": {
+          "name": "@material-ui/utils",
+          "version": "4.11.2",
+          "location": "node_modules/@material-ui/utils",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@material-ui/utils",
+              "spec": "^4.11.2",
+              "from": {
+                "name": "@material-ui/core",
+                "version": "4.11.3",
+                "location": "node_modules/@material-ui/core",
+                "dependents": [
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "@material-ui/icons",
+                      "version": "4.11.2",
+                      "location": "node_modules/@material-ui/icons",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/icons",
+                          "spec": "^4.11.2",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.9.10",
+                    "from": {
+                      "name": "@material-ui/lab",
+                      "version": "4.0.0-alpha.57",
+                      "location": "node_modules/@material-ui/lab",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/lab",
+                          "spec": "^4.0.0-alpha.57",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "@material-ui/pickers",
+                      "version": "3.2.10",
+                      "location": "node_modules/@material-ui/pickers",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/pickers",
+                          "spec": "^3.2.10",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "notistack",
+                      "version": "1.0.5",
+                      "location": "node_modules/notistack",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "notistack",
+                          "spec": "^1.0.5",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/core",
+                    "spec": "latest",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "@material-ui/utils",
+              "spec": "^4.11.2",
+              "from": {
+                "name": "@material-ui/lab",
+                "version": "4.0.0-alpha.57",
+                "location": "node_modules/@material-ui/lab",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/lab",
+                    "spec": "^4.0.0-alpha.57",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "@material-ui/utils",
+              "spec": "^4.11.2",
+              "from": {
+                "name": "@material-ui/styles",
+                "version": "4.11.3",
+                "location": "node_modules/@material-ui/styles",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/styles",
+                    "spec": "^4.11.3",
+                    "from": {
+                      "name": "@material-ui/core",
+                      "version": "4.11.3",
+                      "location": "node_modules/@material-ui/core",
+                      "dependents": [
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "@material-ui/icons",
+                            "version": "4.11.2",
+                            "location": "node_modules/@material-ui/icons",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/icons",
+                                "spec": "^4.11.2",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.9.10",
+                          "from": {
+                            "name": "@material-ui/lab",
+                            "version": "4.0.0-alpha.57",
+                            "location": "node_modules/@material-ui/lab",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/lab",
+                                "spec": "^4.0.0-alpha.57",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "@material-ui/pickers",
+                            "version": "3.2.10",
+                            "location": "node_modules/@material-ui/pickers",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/pickers",
+                                "spec": "^3.2.10",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "notistack",
+                            "version": "1.0.5",
+                            "location": "node_modules/notistack",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "notistack",
+                                "spec": "^1.0.5",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/core",
+                          "spec": "latest",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "@material-ui/utils",
+              "spec": "^4.11.2",
+              "from": {
+                "name": "@material-ui/system",
+                "version": "4.11.3",
+                "location": "node_modules/@material-ui/system",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/system",
+                    "spec": "^4.11.3",
+                    "from": {
+                      "name": "@material-ui/core",
+                      "version": "4.11.3",
+                      "location": "node_modules/@material-ui/core",
+                      "dependents": [
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "@material-ui/icons",
+                            "version": "4.11.2",
+                            "location": "node_modules/@material-ui/icons",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/icons",
+                                "spec": "^4.11.2",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.9.10",
+                          "from": {
+                            "name": "@material-ui/lab",
+                            "version": "4.0.0-alpha.57",
+                            "location": "node_modules/@material-ui/lab",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/lab",
+                                "spec": "^4.0.0-alpha.57",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "@material-ui/pickers",
+                            "version": "3.2.10",
+                            "location": "node_modules/@material-ui/pickers",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/pickers",
+                                "spec": "^3.2.10",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "notistack",
+                            "version": "1.0.5",
+                            "location": "node_modules/notistack",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "notistack",
+                                "spec": "^1.0.5",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/core",
+                          "spec": "latest",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "*",
+        "from": {
+          "name": "@nandorojo/swr-firestore",
+          "version": "0.16.0",
+          "location": "node_modules/@nandorojo/swr-firestore",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@nandorojo/swr-firestore",
+              "spec": "^0.16.0",
+              "from": {
+                "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.9.0 || ^17",
+        "from": {
+          "name": "@next/react-dev-overlay",
+          "version": "10.0.7",
+          "location": "node_modules/@next/react-dev-overlay",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "@next/react-dev-overlay",
+              "spec": "10.0.7",
+              "from": {
+                "name": "next",
+                "version": "10.0.7",
+                "location": "node_modules/next",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "next",
+                    "spec": "latest",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.6.0 || ^17",
+        "from": {
+          "name": "next",
+          "version": "10.0.7",
+          "location": "node_modules/next",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "next",
+              "spec": "latest",
+              "from": {
+                "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.8.0 || ^17.0.0",
+        "from": {
+          "name": "notistack",
+          "version": "1.0.5",
+          "location": "node_modules/notistack",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "notistack",
+              "spec": "^1.0.5",
+              "from": {
+                "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "17.0.1",
+        "from": {
+          "name": "react-dom",
+          "version": "17.0.1",
+          "location": "node_modules/react-dom",
+          "dependents": [
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^16.8.0 || ^17.0.0",
+              "from": {
+                "name": "@material-ui/core",
+                "version": "4.11.3",
+                "location": "node_modules/@material-ui/core",
+                "dependents": [
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "@material-ui/icons",
+                      "version": "4.11.2",
+                      "location": "node_modules/@material-ui/icons",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/icons",
+                          "spec": "^4.11.2",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.9.10",
+                    "from": {
+                      "name": "@material-ui/lab",
+                      "version": "4.0.0-alpha.57",
+                      "location": "node_modules/@material-ui/lab",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/lab",
+                          "spec": "^4.0.0-alpha.57",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "@material-ui/pickers",
+                      "version": "3.2.10",
+                      "location": "node_modules/@material-ui/pickers",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/pickers",
+                          "spec": "^3.2.10",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "notistack",
+                      "version": "1.0.5",
+                      "location": "node_modules/notistack",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "notistack",
+                          "spec": "^1.0.5",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/core",
+                    "spec": "latest",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^16.8.0 || ^17.0.0",
+              "from": {
+                "name": "@material-ui/icons",
+                "version": "4.11.2",
+                "location": "node_modules/@material-ui/icons",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/icons",
+                    "spec": "^4.11.2",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^16.8.0 || ^17.0.0",
+              "from": {
+                "name": "@material-ui/lab",
+                "version": "4.0.0-alpha.57",
+                "location": "node_modules/@material-ui/lab",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/lab",
+                    "spec": "^4.0.0-alpha.57",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^16.8.0 || ^17.0.0",
+              "from": {
+                "name": "@material-ui/styles",
+                "version": "4.11.3",
+                "location": "node_modules/@material-ui/styles",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/styles",
+                    "spec": "^4.11.3",
+                    "from": {
+                      "name": "@material-ui/core",
+                      "version": "4.11.3",
+                      "location": "node_modules/@material-ui/core",
+                      "dependents": [
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "@material-ui/icons",
+                            "version": "4.11.2",
+                            "location": "node_modules/@material-ui/icons",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/icons",
+                                "spec": "^4.11.2",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.9.10",
+                          "from": {
+                            "name": "@material-ui/lab",
+                            "version": "4.0.0-alpha.57",
+                            "location": "node_modules/@material-ui/lab",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/lab",
+                                "spec": "^4.0.0-alpha.57",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "@material-ui/pickers",
+                            "version": "3.2.10",
+                            "location": "node_modules/@material-ui/pickers",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/pickers",
+                                "spec": "^3.2.10",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "notistack",
+                            "version": "1.0.5",
+                            "location": "node_modules/notistack",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "notistack",
+                                "spec": "^1.0.5",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/core",
+                          "spec": "latest",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^16.8.0 || ^17.0.0",
+              "from": {
+                "name": "@material-ui/system",
+                "version": "4.11.3",
+                "location": "node_modules/@material-ui/system",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/system",
+                    "spec": "^4.11.3",
+                    "from": {
+                      "name": "@material-ui/core",
+                      "version": "4.11.3",
+                      "location": "node_modules/@material-ui/core",
+                      "dependents": [
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "@material-ui/icons",
+                            "version": "4.11.2",
+                            "location": "node_modules/@material-ui/icons",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/icons",
+                                "spec": "^4.11.2",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.9.10",
+                          "from": {
+                            "name": "@material-ui/lab",
+                            "version": "4.0.0-alpha.57",
+                            "location": "node_modules/@material-ui/lab",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/lab",
+                                "spec": "^4.0.0-alpha.57",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "@material-ui/pickers",
+                            "version": "3.2.10",
+                            "location": "node_modules/@material-ui/pickers",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/pickers",
+                                "spec": "^3.2.10",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "notistack",
+                            "version": "1.0.5",
+                            "location": "node_modules/notistack",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "notistack",
+                                "spec": "^1.0.5",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/core",
+                          "spec": "latest",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^16.8.0 || ^17.0.0",
+              "from": {
+                "name": "@material-ui/utils",
+                "version": "4.11.2",
+                "location": "node_modules/@material-ui/utils",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/utils",
+                    "spec": "^4.11.2",
+                    "from": {
+                      "name": "@material-ui/core",
+                      "version": "4.11.3",
+                      "location": "node_modules/@material-ui/core",
+                      "dependents": [
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "@material-ui/icons",
+                            "version": "4.11.2",
+                            "location": "node_modules/@material-ui/icons",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/icons",
+                                "spec": "^4.11.2",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.9.10",
+                          "from": {
+                            "name": "@material-ui/lab",
+                            "version": "4.0.0-alpha.57",
+                            "location": "node_modules/@material-ui/lab",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/lab",
+                                "spec": "^4.0.0-alpha.57",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "@material-ui/pickers",
+                            "version": "3.2.10",
+                            "location": "node_modules/@material-ui/pickers",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/pickers",
+                                "spec": "^3.2.10",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "notistack",
+                            "version": "1.0.5",
+                            "location": "node_modules/notistack",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "notistack",
+                                "spec": "^1.0.5",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/core",
+                          "spec": "latest",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/utils",
+                    "spec": "^4.11.2",
+                    "from": {
+                      "name": "@material-ui/lab",
+                      "version": "4.0.0-alpha.57",
+                      "location": "node_modules/@material-ui/lab",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/lab",
+                          "spec": "^4.0.0-alpha.57",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/utils",
+                    "spec": "^4.11.2",
+                    "from": {
+                      "name": "@material-ui/styles",
+                      "version": "4.11.3",
+                      "location": "node_modules/@material-ui/styles",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/styles",
+                          "spec": "^4.11.3",
+                          "from": {
+                            "name": "@material-ui/core",
+                            "version": "4.11.3",
+                            "location": "node_modules/@material-ui/core",
+                            "dependents": [
+                              {
+                                "type": "peer",
+                                "name": "@material-ui/core",
+                                "spec": "^4.0.0",
+                                "from": {
+                                  "name": "@material-ui/icons",
+                                  "version": "4.11.2",
+                                  "location": "node_modules/@material-ui/icons",
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@material-ui/icons",
+                                      "spec": "^4.11.2",
+                                      "from": {
+                                        "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "peer",
+                                "name": "@material-ui/core",
+                                "spec": "^4.9.10",
+                                "from": {
+                                  "name": "@material-ui/lab",
+                                  "version": "4.0.0-alpha.57",
+                                  "location": "node_modules/@material-ui/lab",
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@material-ui/lab",
+                                      "spec": "^4.0.0-alpha.57",
+                                      "from": {
+                                        "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "peer",
+                                "name": "@material-ui/core",
+                                "spec": "^4.0.0",
+                                "from": {
+                                  "name": "@material-ui/pickers",
+                                  "version": "3.2.10",
+                                  "location": "node_modules/@material-ui/pickers",
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@material-ui/pickers",
+                                      "spec": "^3.2.10",
+                                      "from": {
+                                        "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "peer",
+                                "name": "@material-ui/core",
+                                "spec": "^4.0.0",
+                                "from": {
+                                  "name": "notistack",
+                                  "version": "1.0.5",
+                                  "location": "node_modules/notistack",
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "notistack",
+                                      "spec": "^1.0.5",
+                                      "from": {
+                                        "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/core",
+                                "spec": "latest",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/utils",
+                    "spec": "^4.11.2",
+                    "from": {
+                      "name": "@material-ui/system",
+                      "version": "4.11.3",
+                      "location": "node_modules/@material-ui/system",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/system",
+                          "spec": "^4.11.3",
+                          "from": {
+                            "name": "@material-ui/core",
+                            "version": "4.11.3",
+                            "location": "node_modules/@material-ui/core",
+                            "dependents": [
+                              {
+                                "type": "peer",
+                                "name": "@material-ui/core",
+                                "spec": "^4.0.0",
+                                "from": {
+                                  "name": "@material-ui/icons",
+                                  "version": "4.11.2",
+                                  "location": "node_modules/@material-ui/icons",
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@material-ui/icons",
+                                      "spec": "^4.11.2",
+                                      "from": {
+                                        "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "peer",
+                                "name": "@material-ui/core",
+                                "spec": "^4.9.10",
+                                "from": {
+                                  "name": "@material-ui/lab",
+                                  "version": "4.0.0-alpha.57",
+                                  "location": "node_modules/@material-ui/lab",
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@material-ui/lab",
+                                      "spec": "^4.0.0-alpha.57",
+                                      "from": {
+                                        "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "peer",
+                                "name": "@material-ui/core",
+                                "spec": "^4.0.0",
+                                "from": {
+                                  "name": "@material-ui/pickers",
+                                  "version": "3.2.10",
+                                  "location": "node_modules/@material-ui/pickers",
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "@material-ui/pickers",
+                                      "spec": "^3.2.10",
+                                      "from": {
+                                        "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "peer",
+                                "name": "@material-ui/core",
+                                "spec": "^4.0.0",
+                                "from": {
+                                  "name": "notistack",
+                                  "version": "1.0.5",
+                                  "location": "node_modules/notistack",
+                                  "dependents": [
+                                    {
+                                      "type": "prod",
+                                      "name": "notistack",
+                                      "spec": "^1.0.5",
+                                      "from": {
+                                        "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/core",
+                                "spec": "latest",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^16.9.0 || ^17",
+              "from": {
+                "name": "@next/react-dev-overlay",
+                "version": "10.0.7",
+                "location": "node_modules/@next/react-dev-overlay",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@next/react-dev-overlay",
+                    "spec": "10.0.7",
+                    "from": {
+                      "name": "next",
+                      "version": "10.0.7",
+                      "location": "node_modules/next",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "next",
+                          "spec": "latest",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^16.6.0 || ^17",
+              "from": {
+                "name": "next",
+                "version": "10.0.7",
+                "location": "node_modules/next",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "next",
+                    "spec": "latest",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^16.8.0 || ^17.0.0",
+              "from": {
+                "name": "notistack",
+                "version": "1.0.5",
+                "location": "node_modules/notistack",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "notistack",
+                    "spec": "^1.0.5",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": "^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0",
+              "from": {
+                "name": "react-lazyload",
+                "version": "3.2.0",
+                "location": "node_modules/react-lazyload",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "react-lazyload",
+                    "spec": "^3.2.0",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "peer",
+              "name": "react-dom",
+              "spec": ">=16.6.0",
+              "from": {
+                "name": "react-transition-group",
+                "version": "4.4.1",
+                "location": "node_modules/react-transition-group",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "react-transition-group",
+                    "spec": "^4.4.0",
+                    "from": {
+                      "name": "@material-ui/core",
+                      "version": "4.11.3",
+                      "location": "node_modules/@material-ui/core",
+                      "dependents": [
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "@material-ui/icons",
+                            "version": "4.11.2",
+                            "location": "node_modules/@material-ui/icons",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/icons",
+                                "spec": "^4.11.2",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.9.10",
+                          "from": {
+                            "name": "@material-ui/lab",
+                            "version": "4.0.0-alpha.57",
+                            "location": "node_modules/@material-ui/lab",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/lab",
+                                "spec": "^4.0.0-alpha.57",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "@material-ui/pickers",
+                            "version": "3.2.10",
+                            "location": "node_modules/@material-ui/pickers",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "@material-ui/pickers",
+                                "spec": "^3.2.10",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "peer",
+                          "name": "@material-ui/core",
+                          "spec": "^4.0.0",
+                          "from": {
+                            "name": "notistack",
+                            "version": "1.0.5",
+                            "location": "node_modules/notistack",
+                            "dependents": [
+                              {
+                                "type": "prod",
+                                "name": "notistack",
+                                "spec": "^1.0.5",
+                                "from": {
+                                  "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/core",
+                          "spec": "latest",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "react-transition-group",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "@material-ui/pickers",
+                      "version": "3.2.10",
+                      "location": "node_modules/@material-ui/pickers",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/pickers",
+                          "spec": "^3.2.10",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "react-dom",
+              "spec": "latest",
+              "from": {
+                "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.8.0 || ^17",
+        "from": {
+          "name": "react-hook-form",
+          "version": "6.15.4",
+          "location": "node_modules/react-hook-form",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-hook-form",
+              "spec": "^6.15.4",
+              "from": {
+                "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0",
+        "from": {
+          "name": "react-lazyload",
+          "version": "3.2.0",
+          "location": "node_modules/react-lazyload",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-lazyload",
+              "spec": "^3.2.0",
+              "from": {
+                "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.6.0",
+        "from": {
+          "name": "react-transition-group",
+          "version": "4.4.1",
+          "location": "node_modules/react-transition-group",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-transition-group",
+              "spec": "^4.4.0",
+              "from": {
+                "name": "@material-ui/core",
+                "version": "4.11.3",
+                "location": "node_modules/@material-ui/core",
+                "dependents": [
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "@material-ui/icons",
+                      "version": "4.11.2",
+                      "location": "node_modules/@material-ui/icons",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/icons",
+                          "spec": "^4.11.2",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.9.10",
+                    "from": {
+                      "name": "@material-ui/lab",
+                      "version": "4.0.0-alpha.57",
+                      "location": "node_modules/@material-ui/lab",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/lab",
+                          "spec": "^4.0.0-alpha.57",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "@material-ui/pickers",
+                      "version": "3.2.10",
+                      "location": "node_modules/@material-ui/pickers",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "@material-ui/pickers",
+                          "spec": "^3.2.10",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "peer",
+                    "name": "@material-ui/core",
+                    "spec": "^4.0.0",
+                    "from": {
+                      "name": "notistack",
+                      "version": "1.0.5",
+                      "location": "node_modules/notistack",
+                      "dependents": [
+                        {
+                          "type": "prod",
+                          "name": "notistack",
+                          "spec": "^1.0.5",
+                          "from": {
+                            "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/core",
+                    "spec": "latest",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "prod",
+              "name": "react-transition-group",
+              "spec": "^4.0.0",
+              "from": {
+                "name": "@material-ui/pickers",
+                "version": "3.2.10",
+                "location": "node_modules/@material-ui/pickers",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/pickers",
+                    "spec": "^3.2.10",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.13.1",
+        "from": {
+          "name": "recoil",
+          "version": "0.1.3",
+          "location": "node_modules/recoil",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "recoil",
+              "spec": "^0.1.2",
+              "from": {
+                "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": ">=16.8",
+        "from": {
+          "name": "rifm",
+          "version": "0.7.0",
+          "location": "node_modules/rifm",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "rifm",
+              "spec": "^0.7.0",
+              "from": {
+                "name": "@material-ui/pickers",
+                "version": "3.2.10",
+                "location": "node_modules/@material-ui/pickers",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "@material-ui/pickers",
+                    "spec": "^3.2.10",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "15.x.x || 16.x.x || 17.x.x",
+        "from": {
+          "name": "styled-jsx",
+          "version": "3.3.2",
+          "location": "node_modules/styled-jsx",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "styled-jsx",
+              "spec": "3.3.2",
+              "from": {
+                "name": "next",
+                "version": "10.0.7",
+                "location": "node_modules/next",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "next",
+                    "spec": "latest",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^16.8.0 || ^17.0.0",
+        "from": {
+          "name": "use-subscription",
+          "version": "1.5.1",
+          "location": "node_modules/use-subscription",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "use-subscription",
+              "spec": "1.5.1",
+              "from": {
+                "name": "next",
+                "version": "10.0.7",
+                "location": "node_modules/next",
+                "dependents": [
+                  {
+                    "type": "prod",
+                    "name": "next",
+                    "spec": "latest",
+                    "from": {
+                      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "prod",
+        "name": "react",
+        "spec": "latest",
+        "from": {
+          "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+        }
+      }
+    ]
+  },
+  "edge": {
+    "type": "prod",
+    "name": "react-virtualized",
+    "spec": "*",
+    "error": "MISSING",
+    "from": {
+      "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+    }
+  },
+  "peerConflict": {
+    "name": "react",
+    "version": "16.14.0",
+    "whileInstalling": {
+      "name": "nextjs",
+      "version": "4.0.0",
+      "path": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+    },
+    "location": "node_modules/react",
+    "dependents": [
+      {
+        "type": "peer",
+        "name": "react",
+        "spec": "^15.3.0 || ^16.0.0-alpha",
+        "from": {
+          "name": "react-virtualized",
+          "version": "9.22.3",
+          "whileInstalling": {
+            "name": "nextjs",
+            "version": "4.0.0",
+            "path": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+          },
+          "location": "node_modules/react-virtualized",
+          "dependents": [
+            {
+              "type": "prod",
+              "name": "react-virtualized",
+              "spec": "*",
+              "from": {
+                "location": "C:\\Users\\SHERIPH WORKSTATION\\Documents\\ngabroad"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "strictPeerDeps": false,
+  "force": false
+}
