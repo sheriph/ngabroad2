@@ -41,8 +41,11 @@ export const getStaticPaths = async () => {
 };
 
 export async function getStaticProps({ params }) {
+  const env = process.env.NODE_ENV;
+  const url =
+    env === "production" ? process.env.VERCEL_URI : "http://localhost:3000";
   try {
-    const fetching = await fetch("http://localhost:3000/api/getsinglepost", {
+    const fetching = await fetch(`${url}/api/getsinglepost`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
