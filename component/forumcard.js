@@ -56,25 +56,28 @@ export default function ForumCard({ post }) {
     <Card sx={{}}>
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: "primary.main" }} aria-label="recipe">
+          <Avatar
+            sx={{ bgcolor: "primary.main", cursor: "pointer" }}
+            aria-label="recipe"
+          >
             R
           </Avatar>
         }
         action={
-          <IconButton aria-label="settings">
+          <IconButton sx={{ cursor: "pointer" }} aria-label="settings">
             <ShareIcon />
           </IconButton>
         }
         title={
           <Link href={`/${encodeURIComponent(slug)}`}>
-            <Typography component="a">
+            <Typography sx={{ cursor: "pointer" }} component="a">
               {startCase(lowerCase(username))}
             </Typography>
           </Link>
         }
         subheader={dayjs(date).format("MMMM DD, YYYY")}
       />
-      <Stack sx={{ px: 2 }}>
+      <Stack sx={{ px: 2, cursor: "pointer" }}>
         <Link href={`/${encodeURIComponent(slug)}`}>
           <Typography component="a" variant="h5" gutterBottom>
             {startCase(lowerCase(title))}
