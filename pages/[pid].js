@@ -29,8 +29,11 @@ const Thread = ({ post }) => {
 export default Thread;
 
 export const getStaticPaths = async () => {
+  const env = process.env.NODE_ENV;
+  const url =
+    env === "production" ? process.env.VERCEL_URI : "http://localhost:3000";
   try {
-    const fetching = await fetch("http://localhost:3000/api/getpaths");
+    const fetching = await fetch(`${url}/api/getpaths`);
     const slugs = await fetching.json();
     const paths = slugs.map((slug) => ({ params: { pid: slug.slug } }));
     //  console.log("slugs", paths);
