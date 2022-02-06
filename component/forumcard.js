@@ -75,9 +75,11 @@ export default function ForumCard({ post }) {
         subheader={dayjs(date).format("MMMM DD, YYYY")}
       />
       <Stack sx={{ px: 2 }}>
-        <Typography variant="h5" gutterBottom>
-          {startCase(lowerCase(title))}
-        </Typography>
+        <Link href={`/${encodeURIComponent(slug)}`}>
+          <Typography component="a" variant="h5" gutterBottom>
+            {startCase(lowerCase(title))}
+          </Typography>
+        </Link>
       </Stack>
     </Card>
   );

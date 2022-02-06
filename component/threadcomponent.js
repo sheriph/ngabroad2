@@ -19,8 +19,6 @@ import SingleThread from "./singlethread";
 import Link from "next/link";
 
 export default function ThreadComponent({ post }) {
-  console.log("the post", post);
-
   return (
     <Stack sx={{ mt: 2, mb: 6 }} spacing={{ xs: 0, sm: 2 }} direction="row">
       <Stack spacing={1}>

@@ -34,7 +34,7 @@ const MyHeader = () => {
   }, []);
 
   return (
-    <Container disableGutters>
+    <Container disableGutters sx={{ py: 1 }}>
       <DrawerMenu
         open={open}
         // @ts-ignore
@@ -78,22 +78,16 @@ const MyHeader = () => {
 
               <Grid item>
                 <Link passHref href="/">
-                  <ButtonBase
-                    sx={{ color: "white !important" }}
-                    component={Button}
-                  >
+                  <ButtonBase sx={{ color: "white !important" }} component="a">
                     HOME
                   </ButtonBase>
                 </Link>
               </Grid>
 
               <Grid item>
-                <Link passHref href="/articles">
-                  <ButtonBase
-                    sx={{ color: "white !important" }}
-                    component={Button}
-                  >
-                    ARTICLES
+                <Link passHref href="/discussion">
+                  <ButtonBase sx={{ color: "white !important" }} component="a">
+                    DISCUSSION
                   </ButtonBase>
                 </Link>
               </Grid>
