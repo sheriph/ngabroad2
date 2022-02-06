@@ -5,6 +5,8 @@ import ThreadComponent from "../component/threadcomponent";
 import { useRecoilState } from "recoil";
 import { showLogin_ } from "../state/recoil";
 import LoginWrapper from "../component/loginwrapper";
+import getPaths from "../lib/getpaths";
+import getSinglePost from "../lib/getsinglepost";
 
 const Thread = ({ post }) => {
   const [showLogin, setShowLogin] = useRecoilState(showLogin_);
@@ -29,12 +31,9 @@ const Thread = ({ post }) => {
 export default Thread;
 
 export const getStaticPaths = async () => {
-  const env = process.env.NODE_ENV;
-  const url =
-    env === "production" ? process.env.VERCEL_URI : "http://localhost:3000";
   try {
-    const fetching = await fetch(`${url}/api/getpaths`);
-    const slugs = await fetching.json();
+    // const fetching = await fetch("http://localhost:3000/api/getpaths");
+    const slugs = await getPaths();
     const paths = slugs.map((slug) => ({ params: { pid: slug.slug } }));
     //  console.log("slugs", paths);
     return { paths, fallback: "blocking" };
@@ -44,11 +43,8 @@ export const getStaticPaths = async () => {
 };
 
 export async function getStaticProps({ params }) {
-  const env = process.env.NODE_ENV;
-  const url =
-    env === "production" ? process.env.VERCEL_URI : "http://localhost:3000";
   try {
-    const fetching = await fetch(`${url}/api/getsinglepost`, {
+    /*  const fetching = await fetch("http://localhost:3000/api/getsinglepost", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -56,8 +52,10 @@ export async function getStaticProps({ params }) {
       body: JSON.stringify({
         slug: params.pid,
       }),
-    });
-    const post = await fetching.json();
+    }); */
+    const jsonPost = await getSinglePost(params.pid);
+    const post = JSON.parse(jsonPost);
+    console.log("post", post);
     /*     const post = await axios.post("/api/getsinglepost", {
       slug: params.pid,
     }); */
