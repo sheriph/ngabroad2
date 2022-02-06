@@ -10,6 +10,7 @@ const nextConfig = {
       "cdn.naijagoingabroad.com",
       "www.naijagoingabroad.com.ng",
       "ngabroadbucket210504-dev.s3.eu-west-2.amazonaws.com",
+      "ngabroad2.vercel.app",
     ],
   },
   experimental: {
