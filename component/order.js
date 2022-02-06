@@ -25,7 +25,7 @@ import axios from "axios";
 import { useRouter } from "next/router";
 import SearchIcon from "@mui/icons-material/Search";
 import MyBackdrop from "./backdrop";
-import { yupResolver } from "@hookform/resolvers/yup";
+import { yupResolver } from "@hookform/resolvers/yup/dist/yup";
 import * as yup from "yup";
 import emailjs from "@emailjs/browser";
 import { lowerCase, startCase } from "lodash";
@@ -57,7 +57,6 @@ export default function Order() {
   const {
     query: { orderNumber },
   } = router;
-
 
   const getOrder = async (orderNumber) => {
     setLoading(true);
